@@ -97,7 +97,7 @@ export const States = () => {
 
       {selectedCity && (
         <h2 style={{ marginTop: '2rem' }}>
-          You selected ${selectedCity} , {selectedState} , {selectedCountry}
+          You selected {selectedCity} , {selectedState} , {selectedCountry}
         </h2>
       )}
     </div>
